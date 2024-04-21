@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 18d73bf96fc7e1a45961fec3594a6284
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snowman: {fileID: 3648378341835275274, guid: cd4eb2e6bd800214ebccd8601c2fdb51, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
