@@ -19,7 +19,7 @@ In this project, we use gesture changes as input. Each time a pinch gesture is r
 
 Our Unity scene consists of four parts: "Environmental Settings", "UI", "Destroy and Generate", and "Trigger and Score".
 
-
+<img src="The-White-Battlefield/Image/021239.png" width="320" />
 
 ### Settings
 <img src=https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-04-22%20021239.png?raw=true width="320" />
@@ -29,7 +29,7 @@ In Settings, we set our main light of scene with a Directional Light object. A V
 
 ### UI
 
-<img src="Documentation~/images/bat03.png" width="320" />
+<img src="The-White-Battlefield/Image/021239.png" width="320" />
 
 
 In UI, we got a Canvas called HoloKit UI Canvas and An EventSystem Obbect. Inside canvas there are four objects:
