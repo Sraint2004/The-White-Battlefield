@@ -17,24 +17,22 @@ The game features an intense timed challenge - players must hit as many snowmen 
 
 In this project, we use gesture changes as input. Each time a pinch gesture is recognized, it triggers the generation of a snowball. When a "five" gesture is recognized, it launches the snowball. Snowballs are destroyed upon collision with mesh information (obtained using AR Foundation's meshing feature) and generated snowmen (also based on AR Foundation's plane detection feature). Upon hitting a snowman, points are scored and a particle system is triggered. Additionally, there is a fog object and a snow particle object used to add a snowing effect and atmosphere to our scene.
 
-Our Unity scene consists of four parts: "Environmental Settings", "UI", "Destroy and Generate", and "Trigger and Score".
+![Our Unity scene consists of four parts: "Environmental Settings", "UI", "Destroy and Generate", and "Trigger and Score".](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/021239.png?raw=true)
 
-<img src="The-White-Battlefield/Image/021239.png" width="320" />
 
 ### Settings
-<img src=https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-04-22%20021239.png?raw=true width="320" />
+
 
 
 In Settings, we set our main light of scene with a Directional Light object. A Volume to add post-processing effect to our scene. AR Session and XR Origin is basic creating AR experience in Unity.
 
 ### UI
 
-<img src="The-White-Battlefield/Image/021239.png" width="320" />
+
 
 
 In UI, we got a Canvas called HoloKit UI Canvas and An EventSystem Obbect. Inside canvas there are four objects:
 
-<img src="Documentation~/images/bat04.png" width="320" />
 
 
 First two are default UI for HoloKit usage, we won’t discuss them here. 
@@ -45,7 +43,6 @@ The”Mesh Detail Slider” is a slider object used to control the level of deta
 
 ### Sound and Effect
 
-<img src="Documentation~/images/bat05.png" width="320" />
 
 
 In “Sound and Effect”, “Mic Input” object detects all the voice input of your device, if the volume is beyond the pre-set value, it will trigger a event, which in this case is to make a visual effect from your current position.
