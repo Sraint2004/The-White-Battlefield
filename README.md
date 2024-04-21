@@ -17,7 +17,8 @@ The game features an intense timed challenge - players must hit as many snowmen 
 
 In this project, we use gesture changes as input. Each time a pinch gesture is recognized, it triggers the generation of a snowball. When a "five" gesture is recognized, it launches the snowball. Snowballs are destroyed upon collision with mesh information (obtained using AR Foundation's meshing feature) and generated snowmen (also based on AR Foundation's plane detection feature). Upon hitting a snowman, points are scored and a particle system is triggered. Additionally, there is a fog object and a snow particle object used to add a snowing effect and atmosphere to our scene.
 
-![Our Unity scene consists of four parts: "Environmental Settings", "UI", "Destroy and Generate", and "Trigger and Score".](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/021239.png?raw=true)
+Our Unity scene consists of four parts: "Environmental Settings", "UI", "Destroy and Generate", and "Trigger and Score".
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/021239.png?raw=true)
 
 
 ### Settings
