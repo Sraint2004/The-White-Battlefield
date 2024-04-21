@@ -18,20 +18,16 @@ The game features an intense timed challenge - players must hit as many snowmen 
 In this project, we use gesture changes as input. Each time a pinch gesture is recognized, it triggers the generation of a snowball. When a "five" gesture is recognized, it launches the snowball. Snowballs are destroyed upon collision with mesh information (obtained using AR Foundation's meshing feature) and generated snowmen (also based on AR Foundation's plane detection feature). Upon hitting a snowman, points are scored and a particle system is triggered. Additionally, there is a fog object and a snow particle object used to add a snowing effect and atmosphere to our scene.
 
 Our Unity scene consists of four parts: "Environmental Settings", "UI", "Destroy and Generate", and "Trigger and Score".
-![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/021239.png?raw=true)
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/032606.png?raw=true)
 
 
-### Settings
+### Environmental Settings
 
+In Environmental Settings, we set our main light of scene with a Directional Light object. Use Fog Particle and snow Particles to add a snowy atmosphere and effects to the scene. ARMeshMenager is used to detect planes and replace materials, achieving the effect of accumulated snowAR Session and XR Origin is basic creating AR experience in Unity.Use the snowballpose to determine the position where snowballs are generated.
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/042507.png?raw=true)
 
-
-In Settings, we set our main light of scene with a Directional Light object. A Volume to add post-processing effect to our scene. AR Session and XR Origin is basic creating AR experience in Unity.
 
 ### UI
-
-
-
-
 In UI, we got a Canvas called HoloKit UI Canvas and An EventSystem Obbect. Inside canvas there are four objects:
 
 
