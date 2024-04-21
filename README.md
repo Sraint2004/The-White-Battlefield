@@ -28,25 +28,18 @@ In Environmental Settings, we set our main light of scene with a Directional Lig
 
 
 ### UI
-In UI, we got a Canvas called HoloKit UI Canvas and An EventSystem Obbect. Inside canvas there are four objects:
+In UI, The "score" object is a text used to count hits on the snowman, thus providing the final score. "Timer" is a text-based countdown tool used to remind players of the remaining time. "Image" is the snowman picture, serving as the score UI icon. "Gameover" is used to remind players that the game is over and display the final score, associated with the first "score" object. "Handgesture" is the default user interface for Holokit gesture recognition.
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/42507.png?raw=true)
 
-
-
-First two are default UI for HoloKit usage, we won’t discuss them here. 
-
-The “Mesh Button” object is a button to control On&Off of ARMeshManager feature. if you always keep this feature On, meshing feature will kill the performance of your phone. Here the button on your own hands, you can disable this feature when you got enough mesh information of your surroundings.
-
-The”Mesh Detail Slider” is a slider object used to control the level of detail of your mesh. A higher value means a more detailed mesh, resulting in a smoother and better matching between meshing information and real environment
-
-### Sound and Effect
-
-
+### Destroy and Generate
 
 In “Sound and Effect”, “Mic Input” object detects all the voice input of your device, if the volume is beyond the pre-set value, it will trigger a event, which in this case is to make a visual effect from your current position.
 
 The “BatVFXShaderController” objects grab some parameters and pass them to our visual effect. Our visual effect is made with ShaderGraph, relates to current position, needs an awareness of current position and trigger time to create a time-varying visual effect.
 
 Finally, “SceneManager” object provides some functions for our UI elements. UI itself is a button, slider or sth else with no function in it. We create those functions and bind them to UI elements. Such as a function controls the On&Off of ARMeshManager.
+
+## Trigger and Score
 
 ## Requirements
 
