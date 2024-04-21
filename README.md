@@ -33,11 +33,11 @@ In UI, The "score" object is a text used to count hits on the snowman, thus prov
 
 ### Generate and Destroy
 
-In “Sound and Effect”, “Mic Input” object detects all the voice input of your device, if the volume is beyond the pre-set value, it will trigger a event, which in this case is to make a visual effect from your current position.
+In "destroy and generate," the "enemymanager" object retrieves some plane parameters from the "armeshmanager" and randomly generates snowman prefabs on this plane. When the snowman prefab is hit by the snowball prefab, the "enemymanager" object destroys the snowman prefab and triggers the playback of the snowburst particle system, as well as triggering the next snowman generation script, thus allowing for the regeneration of snowmen after the initial ones are destroyed. 
 
-The “BatVFXShaderController” objects grab some parameters and pass them to our visual effect. Our visual effect is made with ShaderGraph, relates to current position, needs an awareness of current position and trigger time to create a time-varying visual effect.
+Finally, the "enemymanager" object provides some functions for our UI elements. It provides data to "score" by counting the number of snowmen destroyed.
 
-Finally, “SceneManager” object provides some functions for our UI elements. UI itself is a button, slider or sth else with no function in it. We create those functions and bind them to UI elements. Such as a function controls the On&Off of ARMeshManager.
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/042509.png?raw=true)
 
 ## Trigger and Score
 
