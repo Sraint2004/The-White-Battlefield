@@ -41,6 +41,11 @@ Finally, the "enemymanager" object provides some functions for our UI elements. 
 
 ## Trigger and Score
 
+
+
+
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/042508.png?raw=true)
+
 ## Requirements
 
 This project aims to build an app runs on iOS device.
