@@ -36,12 +36,12 @@ In UI, The "score" object is a text used to count hits on the snowman, thus prov
 
 ### Generate and Destroy
 
-In "destroy and generate," the "enemymanager" object retrieves some plane parameters from the "armeshmanager" and randomly generates snowman prefabs on this plane. When the snowman prefab is hit by the snowball prefab, the "enemymanager" object destroys the snowman prefab and triggers the playback of the snowburst particle system, as well as triggering the next snowman generation script, thus allowing for the regeneration of snowmen after the initial ones are destroyed. 
+In "destroy and generate," the "enemymanager" object retrieves some plane parameters from the "armeshmanager" and randomly generates snowman prefabs on this plane. When the snowman prefab is hit by the snowball prefab, the "enemymanager" object destroys the snowman prefab and triggers the playback of the snowburst particle system, as well as triggering the next snowman generation script, thus allowing for the regeneration of snowmen after the initial ones are destroyed and achieving the effect of random generation.
 
 
 ![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/042509.png?raw=true)
 
-## Trigger and Score
+### Trigger and Score
 
 In "Trigger and Score","the Hand Gesture Recognition Manager "and "AR Snowball Throw" are designed to handle interactions between game objects and manage the mechanism of throwing snowballs in the gaming environment. The Hand Gesture Recognition Manager is used to identify gestures, recognizing the "pinch" and "five" gestures through hand joint recognition, and providing functions for the "AR Snowball Throw" object. This triggers scripts for generating and launching snowballs.
 
@@ -66,3 +66,21 @@ This project aims to build an app runs on iOS device.
 4. Open Xcode, build app to your mobile device
 
 # Roadmap
+
+## The game development process
+
+### Phase One: Project Preparation
+
+Establish the game concept and core gameplay mechanics: including the theme of the game, gameplay features, etc. Create a conceptual diagram to visually represent the game concept and mechanics, understand the production process of AR games, and study the process and technology involved in augmented reality (AR) game development, including the use of relevant tools and platforms. Set up the basic environment and rendering pipeline required for game development.
+
+### Phase Two: Implementing Basic Functionality
+
+Set up the basic rendering pipeline, shaders, and a snowball snowman model. Utilize ARFoundation's meshing to achieve plane detection and coverage effects. Use the plane manager to recognize planes and implement snowball generation and throwing functionality through gesture recognition. Add basic collision detection and gravity components. Design a mechanism for enemy (snowman) generation - randomly spawn on detected planes and add movement animation upon spawning. Implement hit effects using particle systems. Design and implement a scoring system and a settlement interface.
+
+### Phase Three: Beautification and Optimization
+
+Optimize the snowball launch position, enhance the character models, and improve visual effects. Identify and rectify flaws discovered during real-device testing, such as adjusting snowman spawn quantity and interval time, adding masks, changing UI icons, modifying light intensity, and conducting tests to ensure game compatibility and stability.
+
+
+
+
