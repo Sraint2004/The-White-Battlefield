@@ -2,6 +2,7 @@
 
 This is a casual game that seamlessly integrates augmented reality technology with interactive fun. It utilizes Unity's ARFoundation and Holokit gesture recognition features, aiming to provide players with an unprecedented immersive winter experience. This game ingeniously merges the virtual world with the real environment, allowing players to initiate a unique snowball fight at home, in the park, or any open space. The objective is to hit lively and adorable virtual snowmen, offering enjoyment and challenge amidst the winter atmosphere.
 
+![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/20240422195837.gif?raw=true)
 ## What is The-White-Battlefield
 
 The project utilizes the meshing functionality of AR Foundation. This meshing feature provides environmental model information, allowing us to overlay visual effects on the physical environment to convey a specific theme, such as a snowy landscape. 
@@ -18,6 +19,7 @@ The game features an intense timed challenge - players must hit as many snowmen 
 In this project, we use gesture changes as input. Each time a pinch gesture is recognized, it triggers the generation of a snowball. When a "five" gesture is recognized, it launches the snowball. Snowballs are destroyed upon collision with mesh information (obtained using AR Foundation's meshing feature) and generated snowmen (also based on AR Foundation's plane detection feature). Upon hitting a snowman, points are scored and a particle system is triggered. Additionally, there is a fog object and a snow particle object used to add a snowing effect and atmosphere to our scene.
 
 Our Unity scene consists of four parts: "Environmental Settings", "UI", "Generate and Destroy", and "Trigger and Score".
+
 ![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/032606.png?raw=true)
 
 
