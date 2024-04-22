@@ -35,28 +35,29 @@ In UI, The "score" object is a text used to count hits on the snowman, thus prov
 
 In "destroy and generate," the "enemymanager" object retrieves some plane parameters from the "armeshmanager" and randomly generates snowman prefabs on this plane. When the snowman prefab is hit by the snowball prefab, the "enemymanager" object destroys the snowman prefab and triggers the playback of the snowburst particle system, as well as triggering the next snowman generation script, thus allowing for the regeneration of snowmen after the initial ones are destroyed. 
 
-Finally, the "enemymanager" object provides some functions for our UI elements. It provides data to "score" by counting the number of snowmen destroyed.
 
 ![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/042509.png?raw=true)
 
 ## Trigger and Score
 
+In "Trigger and Score","the Hand Gesture Recognition Manager "and "AR Snowball Throw" are designed to handle interactions between game objects and manage the mechanism of throwing snowballs in the gaming environment. The Hand Gesture Recognition Manager is used to identify gestures, recognizing the "pinch" and "five" gestures through hand joint recognition, and providing functions for the "AR Snowball Throw" object. This triggers scripts for generating and launching snowballs.
 
+Finally, the "AR Snowball Throw" object provides some functions for our UI elements. It provides data to "score" by counting the number of snowmen destroyed.
 
 
 ![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/042508.png?raw=true)
 
 ## Requirements
-
+  
 This project aims to build an app runs on iOS device.
 
-1. Unity 2022.3.8f1
-2. Xcode 14.2
+1. Unity 2022.3.17f1c1
+2. Xcode 15.3
 3. iPhone with lidar capability
 
 ## How to use
 
 1. Clone the project, open with Unity
-2. Open Assets -> BatSound -> Scene
+2. Open Assets -> ARSnowGames -> Sample Scene
 3. Build this scene to an Xcode project
 4. Open Xcode, build app to your mobile device
