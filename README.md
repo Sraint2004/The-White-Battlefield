@@ -1,6 +1,6 @@
 # The-White-Battlefield
 
-This is a casual game that seamlessly integrates augmented reality technology with interactive fun. It utilizes Unity's ARFoundation and Holokit gesture recognition features, aiming to provide players with an unprecedented immersive winter experience. This game ingeniously merges the virtual world with the real environment, allowing players to initiate a unique snowball fight at home, in the park, or any open space. The objective is to hit lively and adorable virtual snowmen, offering enjoyment and challenge amidst the winter atmosphere.	:snowman_with_snow: 
+This is a casual game that seamlessly integrates augmented reality technology with interactive fun. It utilizes Unity's ARFoundation and Holokit gesture recognition features, aiming to provide players with an unprecedented immersive winter experience. This game ingeniously merges the virtual world with the real environment, allowing players to initiate a unique snowball fight at home, in the park, or any open space. The objective is to hit lively and adorable virtual snowmen, offering enjoyment and challenge amidst the winter atmosphere.	 :snowman_with_snow:  
 
 ![](https://github.com/Sraint2004/The-White-Battlefield/blob/main/Image/20240422195837.gif?raw=true)
 
@@ -10,7 +10,7 @@ The project utilizes the meshing functionality of AR Foundation. This meshing fe
 
 The project is positioned as an AR interactive experience, where users can participate through handheld devices or HoloKit. Whether it's indoors or outdoors, any space can become your battlefield for battling snowmen. 
 
-At the start of the game, the scene is initially covered with a snowy texture.:snowflake: Players can then throw snowballs by pinching and spreading their fingers, aiming to hit randomly generated snowmen :snowman:  on surrounding physical surfaces. 
+At the start of the game, the scene is initially covered with a snowy texture. :snowflake:  Players can then throw snowballs by pinching and spreading their fingers, aiming to hit randomly generated snowmen  :snowman:   on surrounding physical surfaces. 
 
 The game features an intense timed challenge - players must hit as many snowmen as possible within 60 seconds. The urgency of time prompts players to react quickly, strategically adjusting their throwing angles and strength. Each launch tests the player's observation and reaction speed, making the game competitive and entertaining.At the same time, special particle effects accompany each snowball hit, offering players a unique visual experience
 
