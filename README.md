@@ -69,26 +69,26 @@ This project aims to build an app runs on iOS device.
 
 ## Released
 
-1. Plane detection and material replacement, 
-2. Random enemy generation on AR planes, 
-3. Particle system and special effects production, 
-4. Gesture recognition and interaction, 
-5. Scoring determination and game timing, 
-6. UI design.
+1. Plane detection and material replacement
+2. Random enemy generation on AR planes
+3. Particle system and special effects production
+4. Gesture recognition and interaction
+5. Scoring determination and game timing
+6. Existing UI design.
 
 ## In progress
 
-1. Design and interaction settings for the start screen UI.
-2. Creation of snowball trailing effects and effects for when enemies are not hit.
-3. Sound effects production.
-4. Optimization of the end game screen and game restart.
+1. Design and interaction settings for the start screen UI
+2. Creation of snowball trailing effects and effects for when enemies are not hit
+3. Sound effects production
+4. Optimization of the end game screen and game restart
 
 ## Planned
 
-1. Snow particle landing effects.
-2. Update game boss types,
-3. Game level design,
-4. Snowball appearance customization.
+1. Snow particle landing effects
+2. Update game boss types
+3. Game level design
+4. Snowball appearance customization
 
 ## Under Consideration
 
